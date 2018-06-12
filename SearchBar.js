@@ -32,7 +32,7 @@ export default class SearchBar extends PureComponent {
     iconCloseName: 'md-close',
     iconSearchName: 'ios-search',
     iconBackName: 'md-arrow-back',
-    returnKeyType: '搜索',
+    returnKeyType: 'search',
     underlineColorAndroid: 'transparent',
     iconColor: '#666',
     alwaysShowBackButton: false,
@@ -148,7 +148,6 @@ export default class SearchBar extends PureComponent {
 }
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     backgroundColor: '#fff',
     flexDirection: 'row',
     alignItems: 'center',
