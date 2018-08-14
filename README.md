@@ -14,7 +14,7 @@ All props are optional except height.
 
 ```js
 import React, { Component } from 'react';
-import SearchBar from 'react-native-material-design-searchbar';
+import SearchBar from './SearchBar';
 
 export default class ExampleComponent extends Component {
   state = {
